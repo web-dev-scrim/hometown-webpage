@@ -118,6 +118,15 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: #F8BD7F;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#guide-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  background-color: #F4A460;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 #guide-image {
